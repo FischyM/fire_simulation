@@ -54,7 +54,7 @@ void draw(){
   fire.dissipate();
   surface.setTitle("Framerate: " + frameRate);
   
-  float num = 1.75;
+  float num = 1.65;
   filter(BLUR, num);
   //if (frameCount % 500 == 0) {
   //  saveFrame("data/current.png");
